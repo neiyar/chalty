@@ -6,7 +6,7 @@ const server=http.createServer(app)
 
 const io=new Server(server,{
     cors:{
-        origin:"https://frontend-w8hf.onrender.com",
+        origin:["http://localhost:5173","http://localhost:5174"],
         methods:["GET","POST"]
     }
 })

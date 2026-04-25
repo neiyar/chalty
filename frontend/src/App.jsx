@@ -29,7 +29,7 @@ import getAllNotifications from './hooks/getAllNotifications'
 import { setOnlineUsers } from './redux/socketSlice' // ✅ only users array
 import { setNotificationData } from './redux/userSlice'
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://backend-tdp5.onrender.com"
 
 function App() {
 

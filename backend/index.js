@@ -20,6 +20,7 @@ app.use(
       // Your deployed frontend
       "http://localhost:5173",
       "http://localhost:5174",
+      "https://chatly-068n.onrender.com"
       // Local development
     ],
     credentials: true,
